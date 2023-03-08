@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+@media only screen and  (max-width: 992px){
+    .dropdown-menu{
+        background-color: rgb(233, 18, 72);
+        
+    }
+    .nav_button{
+        width: 80%;
+    }
+    .card{
+        display: none !important;
+    }
+    h1{
+        font-size: 20px !important;
+        color: red !important;
+        
+    }
+    .ddd{display: block !important;}
+}
+.navbar-brand img{
+    height: 60px;
+    width: 80px;
+    margin-right: 20px;
+}
+.bg{
+    background-color: rgb(243, 145, 169);
+}
+.drop{
+    margin-right: 250px;
+}
+.dropdown-menu{
+    background-color: rgb(243, 145, 169);
+    width: 200px;
+    
+}
+.nav_button{
+    width: 210px;
+}
+.smile{
+    width: 50px;
+    height: 30px;
+}
+.text-col{
+    color: red !important;
+    font-size: 28px;
+}
+.dropdown-item{
+    color: red;
+}
+.b-image{
+    background-image: url(./images/back-image.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.card{
+    position: absolute;
+    border-radius: 100%;
+    width: 800px;
+    height: 500px;
+    left: 250px;
+    top:30px;
+    padding: 30px;
+    background-color: rgb(241, 78, 49);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    font-size: 24px;
+    color: white;
+}
+.gil{
+    font-size: 36px;
+}
+.ddd{
+    width: 600px;
+    height: 400px;
+    
+
+
+}
